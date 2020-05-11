@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Video Stream</title>
+  </head>
+  <body style="text-align: center; display: inline-block; width: 400px;">
+    <h1>Video Live Stream</h1>
+    <img src="{{ url_for('video_feed') }}">
+  </body>
+  <body style="text-align: center; display: inline-block; width: 400px;">
+    <h1>Static Stream</h1>
+    <video width="400" controls autoplay muted>
+        <source src="./static/nature.mp4" type="video/mp4">
+    </video>
+  </body>
+</html>
